@@ -3,8 +3,8 @@ xmax <- c(25.0, 22.8, 31.2, 27.3, 28.4, 20.2, 24.1)
 dff <-  xmax - xmin
 avgmax <- mean(xmax)
 avgmin <- mean(xmin)
-xmin [xmin < avgMIN]
-xmin [xmax > avgMAX]
+xmin [xmin < avgmin]
+xmin [xmax > avgmax]
 names(xmin) <- c('Mon', 'Tue', 'Wed', 'Thu', 'Fri' , 'Sat' , 'Sun')
 names(xmax) <- c('Mon', 'Tue', 'Wed', 'Thu', 'Fri' , 'Sat' , 'Sun')
 temperature <- data.frame(xmin,xmax)
