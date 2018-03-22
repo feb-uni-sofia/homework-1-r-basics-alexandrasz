@@ -3,8 +3,8 @@ y <- c(1,4)
 x-y
 s <- c(x,y)
 rep(s,10)
-srep <- rep(s,10)
-length(srep)
+srepeat <- rep(s,10)
+length(srepeat)
 rep(s, each=3)
 seq(7,21, by=1)
 7:21
